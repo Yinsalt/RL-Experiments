@@ -2,6 +2,7 @@
 conda create -n drl python=3.11 -y
 conda activate drl
 
+sudo apt-get install git
 # 2. PyTorch über conda (mit CUDA)
 conda install pytorch torchvision pytorch-cuda=12.1 -c pytorch -c nvidia
 
